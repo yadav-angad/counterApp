@@ -1,2 +1,78 @@
-/android
-/ios
+# Xcode
+#
+build/
+*.pbxuser
+!default.pbxuser
+*.mode1v3
+!default.mode1v3
+*.mode2v3
+!default.mode2v3
+*.perspectivev3
+!default.perspectivev3
+xcuserdata
+*.xccheckout
+*.moved-aside
+DerivedData
+*.hmap
+*.ipa
+*.xcuserstate
+project.xcworkspace
+ios/Pods/
+ios/Index/DataStore
+
+# Android/IntelliJ
+#
+build/
+.idea
+.gradle
+local.properties
+*.iml
+android/app/src/main/res/drawable-*/node_modules_*
+android/app/src/main/res/drawable-*/src_assets_*
+android/**/.settings
+android/**/.classpath
+android/**/.project
+android/app/tmp
+java_pid1027*;
+android/app/store/
+android/app/beta/
+android/app/release/
+
+# fastlane
+#
+# It is recommended to not store the screenshots in the git repo. Instead, use fastlane to re-generate the
+# screenshots whenever they are needed.
+# For more information about the recommended setup visit:
+# https://docs.fastlane.tools/best-practices/source-control/
+#
+# The Matchfile is dynamically created during the builds since we have two different configurations
+# for it. So it is ignored here in favor of Matchfile.enterprise and Matchfile.store
+
+fastlane/report.xml
+fastlane/Preview.html
+fastlane/screenshots
+fastlane/Matchfile
+
+fastlane/.signing/
+fastlane/artifacts/
+fastlane/artifacts_test/
+
+fastlane/test.log
+
+# BUCK
+#
+buck-out/
+\.buckd/
+*.keystore
+!debug.keystore
+
+# Bundle artifact
+#
+*.jsbundle
+
+# Generated Files
+# 
+**/e2e/artifacts/
+**/e2e/debug/
+**/.bundle/config
+**/vendor/
