@@ -76,3 +76,4 @@ buck-out/
 **/e2e/debug/
 **/.bundle/config
 **/vendor/
+node_modules
